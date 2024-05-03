@@ -1,15 +1,17 @@
 body {
     margin: 0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /*header box*/
 .header-box {
-    background-color: black;
-    width: 100%;
-    min-height: 300px;
+    background-image: url(img/jumbo.png);
     display: flex;
-    flex-flow: wrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 70px;
+    padding-top: 15px;
 }
 
 .header-box__menu {
@@ -19,12 +21,13 @@ body {
     min-height: 25px;
     justify-content: center;
     padding: 10px;
-    font-family: monospace;
+    font-size: 12px;
+    
 }
 
 .header-box__item {
     background-color: chocolate;
-    width: 160px;
+    width: 240px;
     border: solid 1px black;
     display: flex;
     justify-content: flex-start;
@@ -32,14 +35,23 @@ body {
     align-items: center;
 }
 
+img.discord {
+    width: 124px;
+}
+
 .header-box__item___middle {
     background-color: chocolate;
-    width: 300px;
+    width: 450px;
     border: solid 1px black;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 30px;
     align-items: center;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: white;
 }
 
 .header-box__item.right {
@@ -47,6 +59,14 @@ body {
     justify-content: flex-end;
     padding-right: 5px;
     align-items: center;
+    font-weight: bold;
+}
+
+a.button {
+    color: black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 15px;
 }
 
 .header-box__container {
@@ -60,8 +80,27 @@ body {
 
 .header-box__content {
     background-color: #F088F2;
-    width: 40%;
+    width: 50%;
     min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header-box__button {
+    display: flex;
+    gap: 20px;
+}
+
+a.button.bgwhite {
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+a.button.bggray {
+    background-color: #23272a;
+    font-weight: bold;
+    color: white;
 }
 
 /*main*/
@@ -144,7 +183,7 @@ body {
     border-top: solid 1px white;
 }
 
-.second-footer-button__container {
+.second-footer__container {
     background-color: #7bfbd3;
     width: 46%;
     min-height: 25px;
@@ -154,10 +193,22 @@ body {
     padding-bottom: 10px;
 }
 
-.second-footer-button {
+.second-footer__registrati {
     background-color: pink;
     padding: 5px;
     border: solid 1px black;
-    font-family: monospace;
     font-size: 12px;
 }
+
+h1.header-title {
+    color: white;
+    font-size: 45px;
+}
+
+p.header-paragraph {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+bgwhite {}
