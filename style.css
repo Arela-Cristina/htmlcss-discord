@@ -44,7 +44,7 @@ img.discord {
     align-items: center;
 }
 
-a.nav-link {
+a {
     text-decoration: none;
     color: white;
 }
@@ -147,7 +147,7 @@ a.button.bggray {
 }
 
 .section-box__container.gray {
-    background-color: gray;
+    background-color: #f6f6f6;
 }
 
 .section-bigbox.intense-gray {
@@ -155,7 +155,7 @@ a.button.bggray {
 }
 
 .section-bigbox {
-    background-color: gray;
+    background-color: #f6f6f6;
     width: 100%;
     min-height: 200px;
     display: flex;
@@ -163,10 +163,14 @@ a.button.bggray {
 }
 
 .section-bigbox__container {
-    background-color: #278C23;
-    width: 46%;
+    width: 60%;
     min-height: 350px;
     margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /*footer*/
@@ -177,18 +181,36 @@ a.button.bggray {
     display: flex;
     justify-content: center;
     padding: 40px 0;
+    padding-top: 50px;
+}
+
+.bgpurple {
+    color: #5865f2;
 }
 
 .footer-box__big-content.blue {
-    background-color: blue;
     width: 13%;
     min-height: 210px;
+    margin-right: 90px;
+}
+
+h2.footer__bigline {
+    font-size: 24px;
+}
+
+img.size__ita {
+    width: 32px;
+    float: left;
+    margin-right: 5px;
 }
 
 .footer-box__content {
-    background-color: #24b4ac;
     width: 8.2%;
-    min-height: 210px;
+    margin-right: 50px;
+    line-height: 25px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .second-footer {
@@ -198,26 +220,24 @@ a.button.bggray {
     display: flex;
     justify-content: center;
     padding-top: 15px;
-    border-top: solid 1px white;
+   
 }
 
 .second-footer__container {
-    background-color: #7bfbd3;
-    width: 46%;
-    min-height: 25px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
+    border-top: solid 1px white;
 }
 
 .second-footer__registrati {
-    background-color: pink;
     padding: 5px;
     border: solid 1px black;
     font-size: 12px;
 }
 
-bgwhite {
+.bgwhite {
     color: white;
 }
