@@ -16,7 +16,6 @@ body {
 
 .header-box__menu {
     display: flex;
-    background-color: aquamarine;
     width: 100%;
     min-height: 25px;
     justify-content: center;
@@ -26,9 +25,7 @@ body {
 }
 
 .header-box__item {
-    background-color: chocolate;
     width: 240px;
-    border: solid 1px black;
     display: flex;
     justify-content: flex-start;
     padding-left: 5px;
@@ -40,9 +37,7 @@ img.discord {
 }
 
 .header-box__item___middle {
-    background-color: chocolate;
     width: 450px;
-    border: solid 1px black;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -70,7 +65,6 @@ a.button {
 }
 
 .header-box__container {
-    background-color: #030A8C;
     width: 100%;
     min-height: 200px;
     display: flex;
@@ -79,7 +73,6 @@ a.button {
 }
 
 .header-box__content {
-    background-color: #F088F2;
     width: 50%;
     min-height: 210px;
     display: flex;
@@ -209,6 +202,7 @@ p.header-paragraph {
     font-size: 15px;
     color: white;
     margin-bottom: 30px;
+    line-height: 25px;
 }
 
 bgwhite {}
