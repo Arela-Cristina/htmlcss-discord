@@ -21,7 +21,7 @@ body {
     justify-content: center;
     padding: 10px;
     font-size: 12px;
-    
+
 }
 
 .header-box__item {
@@ -80,6 +80,19 @@ a.button {
     align-items: center;
     text-align: center;
 }
+
+h1.title.bgwhite {
+    font-size: 45px;
+    color: white;
+}
+
+p.header-paragraph {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
 .header-box__button {
     display: flex;
     gap: 20px;
@@ -103,16 +116,31 @@ a.button.bggray {
 
 .section-box__container {
     width: 100%;
-    min-height: 200px;
     display: flex;
     justify-content: center;
     padding: 40px;
+    gap: 170px;
 }
+
+.section__img-size {
+    width: 130%;
+}
+
+.section-title {
+    font-size: 35px;
+}
+
+.section-paragraph {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.section-bgblack {}
 
 .section-box__big-content {
     background-color: blue;
     width: 30%;
-    min-height: 210px;
+
 }
 
 .section-box__content {
@@ -193,16 +221,6 @@ a.button.bggray {
     font-size: 12px;
 }
 
-h1.header-title {
+bgwhite {
     color: white;
-    font-size: 45px;
 }
-
-p.header-paragraph {
-    font-size: 15px;
-    color: white;
-    margin-bottom: 30px;
-    line-height: 25px;
-}
-
-bgwhite {}
