@@ -135,16 +135,13 @@ a.button.bggray {
     line-height: 25px;
 }
 
-.section-bgblack {}
 
 .section-box__big-content {
-    background-color: blue;
     width: 30%;
 
 }
 
 .section-box__content {
-    background-color: pink;
     width: 20%;
     min-height: 210px;
 }
