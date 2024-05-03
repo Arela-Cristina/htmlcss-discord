@@ -173,6 +173,27 @@ a.button.bggray {
     text-align: center;
 }
 
+a.purple__button {
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #5865f2;
+}
+
+.fa-solid {
+    font-weight: 900;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+a.lavender__button {
+    background-color: #7289da;
+    padding: 10px 10px;
+    border-radius: 22px;
+    font-size: 12px;
+}
+
 /*footer*/
 .footer-box__container.intense-gray {
     background-color: #23232a;
@@ -198,10 +219,26 @@ h2.footer__bigline {
     font-size: 24px;
 }
 
+.italian-flag-box {
+    display: flex;
+    align-items: center;
+}
+
 img.size__ita {
     width: 32px;
     float: left;
     margin-right: 5px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fa-brands {
+    font-weight: 400;
+    color: white;
 }
 
 .footer-box__content {
@@ -220,7 +257,7 @@ img.size__ita {
     display: flex;
     justify-content: center;
     padding-top: 15px;
-   
+
 }
 
 .second-footer__container {
@@ -228,7 +265,7 @@ img.size__ita {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 100px;
     border-top: solid 1px white;
 }
 
@@ -240,4 +277,12 @@ img.size__ita {
 
 .bgwhite {
     color: white;
+}
+
+.container-text-stars {
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    padding: 10px 40px;
 }
