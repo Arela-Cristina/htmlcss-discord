@@ -112,13 +112,14 @@ a.button.bggray {
 /*main*/
 .section-box {
     display: flex;
+    flex-direction: column;
 }
 
 .section-box__container {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 40px 0;
     gap: 170px;
 }
 
@@ -192,6 +193,10 @@ a.lavender__button {
     padding: 10px 10px;
     border-radius: 22px;
     font-size: 12px;
+}
+
+.wave-style {
+    transform: rotate(180deg);
 }
 
 /*footer*/
